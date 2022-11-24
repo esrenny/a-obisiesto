@@ -1,0 +1,11 @@
+#Escribe una función que pueda decirte si un año (número entero) es bisiesto o no
+
+def bisiesto(year):
+    if year%4==0:
+        print(year,'es un año bisiesto')
+    else:
+        print(year,'No es año bisiesto')
+    return
+
+
+bisiesto(int(input('Introduzca un año a partir de 1970: ')))
